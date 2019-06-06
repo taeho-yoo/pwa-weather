@@ -176,9 +176,9 @@ function startServer() {
   });
 
   // Handle requests for the data
-  app.get('/forecast/:location', getForecast);
-  app.get('/forecast/', getForecast);
-  app.get('/forecast', getForecast);
+  app.get('./forecast/:location', getForecast);
+  app.get('./forecast/', getForecast);
+  app.get('./forecast', getForecast);
 
   // Handle requests for static files
   app.use(express.static('public'));
