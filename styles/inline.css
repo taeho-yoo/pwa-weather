@@ -168,7 +168,7 @@ body {
 }
 
 .icon.add {
-  background-image: url(../images/add.svg);
+  background-image: url("../images/add.svg");
 }
 
 .icon.clear-day {
